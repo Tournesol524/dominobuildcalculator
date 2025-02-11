@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCNBS0HPDX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GCNBS0HPDX');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="DominoBuildCalculator, Domino Calculator, Domino Build Calculator, Domino SpeedPyramid, Domino 3D Pyramid, Domino 2D Pyramid, Domino Chain Calculator">
+    <meta name="description" content="Easily calculate the number of dominoes you will need to build all types of domino constructions. Currently you will be able to calculate the number of dominoes needed to make 3D or 2D pyramids, 3D cubes and more !">
+    <meta property="og:title" content="DominoBuildCalculator" />
+    <meta property="og:description" content="Easily calculate the number of dominoes you will need to build all types of domino constructions. Currently you will be able to calculate the number of dominoes needed to make 3D or 2D pyramids, 3D cubes and more!" />
+    <meta property="og:image" content="https://tournesol524.github.io/dominobuildcalculator/images/DBC-mozilla.png" />
+    <meta property="og:url" content="https://tournesol524.github.io/dominobuildcalculator/" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="https://tournesol524.github.io/dominobuildcalculator/images/DBC-mozilla.png" sizes="192x192" type="image/png">
+    <link rel="icon" href="https://tournesol524.github.io/dominobuildcalculator/images/DBC-mozilla.png" sizes="512x512" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <title>DominoBuildCalculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/frames.css">
+    <link rel="stylesheet" href="CSS/3Dpyramid.css">
+    <link rel="stylesheet" href="CSS/2Dpyramid.css">
+    <link rel="stylesheet" href="CSS/3Dcube.css">
+    <link rel="stylesheet" href="CSS/3Dcube-width.css">
+    <link rel="stylesheet" href="CSS/3Dcube-length.css">
+    <link rel="stylesheet" href="CSS/3Dcube-height.css">
+    <link rel="stylesheet" href="CSS/3Dcube4-1-2-3.css">
+    <link rel="stylesheet" href="CSS/2Dspeed.css">
+    <link rel="stylesheet" href="CSS/languages.css">
+    <link rel="stylesheet" href="CSS/YTB.css">
+    <link rel="stylesheet" href="CSS/images.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
+    <audio id="ZAudio" src="Papa Pipi Popo Poil Zac Bulle.mp3"></audio>
+</head>
+<body>
+    <div id="title">Domino Build Calculator</div>
+    <div id="subtitle">Calculate the dominoes needed for a lot of 3d and 2d constructions</div>
+    <div id="more_content">More content soon !</div>
+    <div class="grey-bottom"></div>
+
+    <div class="frame_border1"></div>
+    <div class="frame_border2"></div>
+    
+    <div class="YTBchannel1"><img src="images/YTB.png" width="50px"></div>
+    <div class="channel_name">LDominoes</div>
+    <a href="https://www.youtube.com/@LLDominoes" target="_blank"><button class="FrameYTB"></button></a>
+
+    <div class="Pyramid3D-image"><img src="images/Pyramid3D.png" alt="Image"></div>
+    <div class="frame-pyramid3D"></div>
+    <div class="Pyramid2D-image"><img src="images/Pyramid2D.png" alt="Image"></div>
+    <div class="frame-pyramid2D"></div>
+    <div class="Speed-image"><img src="images/Speed.png" alt="Image"></div>
+    <div class="frame-speed"></div>
+    <div class="Cube-image"><img src="images/Cube.png" alt="Image"></div>
+    <div class="frame-cube"></div>
+
+    <div class="Error1"></div>
+    <div class="Error2">Other languages are not yet available</div>
+    <div class="Error3"></div>
+    <div class="Error4">OK</div>
+    <div class="Error5"></div>
+    
+    <!--Languages begin-->
+    <button class="languages"></button>
+    <div class="languages-text">English</div>
+    <button class="languages_menu"></button>
+    <div class="Selection1">▼</div>
+    <div class="Selection2"><img src="Flag-images/Flag1.png" width="30px"></div>
+    
+    <button class="DBC-French"></button>
+    <button class="languages_menu2"></button>
+    <div class="French-text">Français</div>
+    <div class="Selection3"><img src="Flag-images/Flag2.png" width="50px"></div>
+
+    <button class="DBC-Deutsch"></button>
+    <button class="languages_menu3"></button>
+    <div class="Deutsch-text">Deutsch</div>
+    <div class="Selection4"><img src="Flag3.png" width="50px"></div>
+
+    <button class="DBC-日本語"></button>
+    <button class="languages_menu4"></button>
+    <div class="日本語-text">日本語</div>
+    <div class="Selection5"><img src="Flag4.png" width="50px"></div>
+
+    <button class="DBC-Polski"></button>
+    <button class="languages_menu5"></button>
+    <div class="Polski-text">Polski</div>
+    <div class="Selection6"><img src="Flag5.png" width="50px"></div>
+
+    <button class="DBC-Русский"></button>
+    <button class="languages_menu6"></button>
+    <div class="Русский-text">Русский</div>
+    <div class="Selection7"><img src="Flag6.png" width="50px"></div>
+
+    <button class="DBC-Türkçe"></button>
+    <button class="languages_menu7"></button>
+    <div class="Türkçe-text">Türkçe</div>
+    <div class="Selection8"><img src="Flag7.png" width="50px"></div>
+    
+    <button class="DBC-Español"></button>
+    <button class="languages_menu8"></button>
+    <div class="Español-text">Español</div>
+    <div class="Selection9"><img src="Flag8.png" width="50px"></div>
+    
+    <button class="DBC-Português"></button>
+    <button class="languages_menu9"></button>
+    <div class="Português-text">Português</div>
+    <div class="Selection10"><img src="Flag9.png" width="50px"></div>
+    
+    <button class="DBC-Svenska"></button>
+    <button class="languages_menu10"></button>
+    <div class="Svenska-text">Svenska</div>
+    <div class="Selection11"><img src="Flag10.png" width="50px"></div>
+    
+    <button class="DBC-中文"></button>
+    <button class="languages_menu11"></button>
+    <div class="中文-text">中文</div>
+    <div class="Selection12"><img src="Flag11.png" width="50px"></div>
+    
+    <button class="DBC-ภาษาไทย"></button>
+    <button class="languages_menu12"></button>
+    <div class="ภาษาไทย-text">ภาษาไทย</div>
+    <div class="Selection13"><img src="Flag12.png" width="50px"></div>    
+    <!--Languages end-->
+
+    <div class="frame1" id="container3D">
+    <label for="size3D" id="inputLabel3D">3D Pyramid Size :</label>
+    <input type="number" id="size3D" min="1" value="1">
+    <button class="button-up">▲</button>
+    <button class="button-down">▼</button>
+    <input type="button" id="calculate3D" value="Calculate" onclick="calculate3DPyramid()">
+    <p id="result3D"></p>
+    </div>
+
+    <div class="frame2" id="container2D">
+    <label for="size2D" id="inputLabel2D">2D Pyramid Size :</label>
+    <input type="number" id="size2D" min="1" value="1">
+    <button class="button-up2">▲</button>
+    <button class="button-down2">▼</button>
+    <input type="button" id="calculate2D" value="Calculate" onclick="calculate2DPyramid()">
+    <p id="result2D"></p>
+    </div>
+
+    <div class="frame3" id="containerSpeed">
+    <label for="sizeSpeed" id="inputLabelSpeed">2D Speed Wall :</label>
+    <input type="number" id="sizeSpeed" min="2" value="2">
+    <button class="button-up3">▲</button>
+    <button class="button-down3">▼</button>
+    <input type="button" id="calculateSpeed" value="Calculate" onclick="calculateSpeedPyramid()">
+    <p id="resultSpeed"></p>
+    </div>
+
+    <div class="frame4" id="containerCube">
+    <div id="titleCube3D">3D Cube :</div>
+    <label for="width" id="inputWidth">Width :</label>
+    <input type="number" id="width" min="2" value="2">
+    <button class="button-up4-1">▲</button>
+    <button class="button-down4-1">▼</button>
+    <label for="length" id="inputLength">Length :</label>
+    <input type="number" id="length" min="4" value="4">
+    <button class="button-up4-2">▲</button>
+    <button class="button-down4-2">▼</button>
+    <label for="height" id="inputHeight">Height :</label>
+    <input type="number" id="height" min="1" value="1">
+    <button class="button-up4-3">▲</button>
+    <button class="button-down4-3">▼</button>
+    <input type="button" id="calculateCube" value="Calculate" onclick="calculateCube()">
+    <p id="resultCube"></p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
