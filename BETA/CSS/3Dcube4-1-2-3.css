@@ -1,0 +1,147 @@
+.button-up4-1 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 110px;
+    left: 445px;
+}
+
+.button-up4-1:hover {
+    background-color: #f5f5f5 ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.button-down4-1 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 149px;
+    left: 445px;
+}
+
+.button-down4-1:hover {
+    background-color: #f5f5f5 ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.button-up4-2 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 110px;
+    left: 940px;
+}
+
+.button-up4-2:hover {
+    background-color: #f5f5f5 ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.button-down4-2 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 149px;
+    left: 940px;
+}
+
+.button-down4-2:hover {
+    background-color: #f5f5f5 ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.button-up4-3 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 110px;
+    left: 1435px;
+}
+
+.button-up4-3:hover {
+    background-color: #f5f5f5 ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.button-down4-3 {
+    width: 50px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-color: #242424;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 149px;
+    left: 1435px;
+}
+
+.button-down4-3:hover {
+    background-color: #f5f5f5 ;
+}
