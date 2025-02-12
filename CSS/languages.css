@@ -35,7 +35,7 @@
     position: absolute;
     font-size: 30px;
     top: 27px;
-    left: 1667px;
+    left: 1668px;
     z-index: 40;
     cursor: pointer;
     pointer-events: none;
@@ -385,7 +385,7 @@
     border: 4px solid #1b1b1b;
     top: 10px;
     left: 1550px;
-    z-index: 24;
+    z-index: 23;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -405,7 +405,7 @@
     top: 26px;
     left: 1615px;
     pointer-events: none;
-    z-index: 24;
+    z-index: 23;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -426,7 +426,7 @@
     border: 4px solid #1b1b1b;
     top: 10px;
     left: 1550px;
-    z-index: 24;
+    z-index: 22;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -446,7 +446,7 @@
     top: 26px;
     left: 1626px;
     pointer-events: none;
-    z-index: 24;
+    z-index: 22;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -467,7 +467,7 @@
     border: 4px solid #1b1b1b;
     top: 10px;
     left: 1550px;
-    z-index: 24;
+    z-index: 21;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -487,7 +487,7 @@
     top: 24px;
     left: 1653px;
     pointer-events: none;
-    z-index: 24;
+    z-index: 21;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -508,7 +508,7 @@
     border: 4px solid #1b1b1b;
     top: 10px;
     left: 1550px;
-    z-index: 24;
+    z-index: 20;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -526,9 +526,9 @@
     position: absolute;
     font-size: 30px;
     top: 24px;
-    left: 1621px;
+    left: 1619px;
     pointer-events: none;
-    z-index: 24;
+    z-index: 20;
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
