@@ -1,0 +1,53 @@
+.Pyramid3D-image, .Pyramid2D-image, .Speed-image {
+    height: 18.5%;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    border: 3px solid black;
+    z-index: 20;
+}
+
+.Pyramid3D-image img, .Pyramid2D-image img, .Speed-image img, .Cube-image img {
+    outline: 3px solid black;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.Pyramid3D-image {
+    top: 24%;
+    left: 11%;
+}
+
+.Pyramid2D-image {
+    top: 60%;
+    left: 11%;
+}
+
+.Speed-image {
+    top: 96%;
+    left: 11%;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.Cube-image {
+    height: 27%;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    border: 3px solid black;
+    top: 163%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+.us-image {
+    height: 27.5%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    z-index: 20;
+}
